@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 public class basicMap {
     public static void main(String[] args) {
-        HashMap<String, Integer> map = new HashMap<>();
         // Note : In a Hashmap their 2 or more key with same value, but key are unique.
         // unique key and same values..
 
@@ -17,24 +16,54 @@ public class basicMap {
         // containsKey(key)       -> O(1)
         // containsValue(value)   -> O(n)
         // entrySet()             -> O(1)
-        map.put("Raghav", 76);
-        map.put("Anshu", 83);
-        map.put("Hima", 71);
-        map.put("Himans", 43);
-        System.out.println(map);
-        System.out.println(map.containsKey("Raghav"));
-        System.out.println(map.containsKey("Gagan"));
-        map.put("Raghav", 100); // existing key value ko override krdeta hai agr key same se hai to
-        System.out.println(map);
-        map.put("Maghav", 100);
+
+        // ---------------- Create HashMap ----------------
+        HashMap<String, Integer> map = new HashMap<>();
+
+        // ---------------- Put (Insert / Update) ----------------
+        map.put("Jay", 1);
+        map.put("Shruti", 2);
+        map.put("Muskan", 3);
+        map.put("Prem", 4);
+        map.put("Suman", 6);
+        map.put("Suman", 5);      // override existing value
+        map.put("khayati", 4);    // duplicate value allowed
+
+        // ---------------- Print Map ----------------
         System.out.println(map);
 
+        // ---------------- get(key) ----------------
+        System.out.println(map.get("khayati"));     // 4
 
-        //  IterateMap
-        for(String key : map.keySet())
-        {
-            System.out.println(key + " " + map.get(key));
+        // ---------------- containsKey(key) ----------------
+        System.out.println(map.containsKey("Prem"));  // true
+        System.out.println(map.containsKey("shuu"));  // false
+
+        // ---------------- containsValue(value) ----------------
+        System.out.println(map.containsValue(4));   // true
+
+        // ---------------- remove(key) ----------------
+        System.out.println(map.remove("Prem"));     // 4 (removed value)
+        System.out.println(map);
+
+        // ---------------- size() & isEmpty() ----------------
+        System.out.println(map.size());     // 5
+        System.out.println(map.isEmpty());  // false
+
+        System.out.println("---------------------------");
+
+        // ---------------- Iterate using keySet() ----------------
+        for (String key : map.keySet()) {
+            System.out.println(key + " -> " + map.get(key));
+        }
+
+        System.out.println("---------------------------");
+
+        // ---------------- Iterate using values() ----------------
+        for (Integer value : map.values()) {
+            System.out.println(value);
         }
     }
 
 }
+
