@@ -7,6 +7,7 @@ A collection of Data Structures and Algorithms implemented in Java for learning,
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/JayShree0/DSA/tree/main/0001-two-sum/) | Easy |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/JayShree0/DSA/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JayShree0/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -15,6 +16,7 @@ A collection of Data Structures and Algorithms implemented in Java for learning,
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/JayShree0/DSA/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JayShree0/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
