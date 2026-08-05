@@ -13,11 +13,13 @@ A collection of Data Structures and Algorithms implemented in Java for learning,
 | [0075-sort-colors](https://github.com/JayShree0/DSA/tree/main/0075-sort-colors/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/JayShree0/DSA/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/JayShree0/DSA/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0904-fruit-into-baskets](https://github.com/JayShree0/DSA/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/JayShree0/DSA/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/JayShree0/DSA/tree/main/0001-two-sum/) | Easy |
+| [0904-fruit-into-baskets](https://github.com/JayShree0/DSA/tree/main/0904-fruit-into-baskets/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -43,6 +45,7 @@ A collection of Data Structures and Algorithms implemented in Java for learning,
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/JayShree0/DSA/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0904-fruit-into-baskets](https://github.com/JayShree0/DSA/tree/main/0904-fruit-into-baskets/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
